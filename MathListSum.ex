@@ -1,4 +1,4 @@
-defmodule MathListSum do
+defmodule Math do
     def sum_list([head | tail], accumlator) do
         sum_list(tail, head + accumlator)
     end
